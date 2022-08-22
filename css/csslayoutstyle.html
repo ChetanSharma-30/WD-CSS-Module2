@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layout Style</title>
+    <style>
+      .boxlayout img {
+        display: block;
+        width: 250px;
+        margin-left: 100px;
+      }
+      .border p {
+        border-style: solid;
+        border-width: 1px;
+        border-color: orangered;
+      }
+      .dashed p {
+        border-top: 2px dashed orange;
+      }
+      .margin p {
+        border: 1px solid orange;
+        margin: 25px 25px 10px 50px;
+        width: 150px;
+      }
+      .padding p {
+        border: 1px solid orchid;
+        padding: 10px;
+      }
+      .Spadding p {
+        border: 1px solid orangered;
+        padding: 25px 25px 10px 50px;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Layout Box Model</h2>
+    <div class="boxlayout">
+      <img src="boxlayout.png" alt="CSS Layout Box Model" />
+    </div>
+    <hr />
+    <p>CSS Border style property</p>
+    <div class="border">
+      <p>
+        This paragraph represent the CSS border properties. This way you can
+        change the border color, border width or border style.
+      </p>
+    </div>
+    <hr />
+    <p>CSS border shorthand property</p>
+    <div class="dashed">
+      <p>This element set CSS top border style dashed.</p>
+      <hr>
+      <p style="border: 2px solid orange;">This element border style solid.</p>
+    </div>
+    <hr>
+  <p style="border: 2px dotted orange;">This element border style dotted.</p>
+  <hr>
+  <p style="border: 2px dashed orange;">This element border style dashed.</p>
+  <hr>
+  <p style="border: 2px double orange;">This element border style double.</p>
+  <hr>
+  <p style="border: 2px groove orange;">This element border style groove.</p>
+  <hr>
+  <p style="border: 2px ridge orange;">This element border style ridge.</p>
+  <hr>
+  <p style="border: 2px inset orange;">This element border style inset.</p>
+  <hr>
+  <p style="border: 2px outset orange;">This element border style outset.</p>
+  <hr>
+  <p style="border: 2px hidden orange;">This element border style hidden.</p>
+  <hr>
+  <p>CSS Margin Property</p>
+  <div class="margin">
+    <p>This element set shorthand margin style property.</p>
+  </div>
+  <hr>
+  <p>CSS Padding Property</p>
+  <div class="padding">
+    <p>This element set Padding style property.</p>
+  </div>
+  <hr>
+  <p>CSS shorthand Padding Property</p>
+  <div class="Spadding">
+    <p>This element set shorthand Padding style property.</p>
+  </div>
+
+  </body>
+</html>
